@@ -1,0 +1,50 @@
+#map {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;    
+}
+
+.font1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.font2{
+    font-family: 'Bevan', cursive;
+}
+
+#placeholder{
+    position:absolute;
+    top:0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    z-index: 1000;
+}
+#start{
+    height: 70%;
+    width: 60%;
+    margin: auto;
+    background-color: #fffffF;
+    border: 1px solid #ececec;
+    padding: 40px;
+    margin-top:10%;
+    position: relative;
+    text-align: center;
+}
+
+#start button{
+    color: #ffffff;
+    background-color: #555555;
+    border: 1px solid #333333;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.intro{
+    text-align: left;
+    position:relative;
+    height: calc(100% - 175px);;
+    overflow-y: scroll;
+}

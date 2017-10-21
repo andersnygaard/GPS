@@ -1,0 +1,11 @@
+{
+    "language": {
+        "city": "Porsgrunn",
+        "intro": "Du vil bli overrasket over hvor mye byen din har forandret seg de siste hundre årene. Jordbruksarealer bygges ned, byen fortettes og de byggene som fortsatt står har gjennomgått flere runder med oppussing. <br><br>Industri har måtte vike for leiligheter og kjøpesenter og flere kilometer med asfalt har blitt rullet ut.<br><br>De fleste husker glimt av hvordan byen så ut i barndommen, men hundre år er et enda større perspektiv for de fleste av oss.<br><br>Bli med på en runde i byen og se hvordan byen har forandret seg på ett århundre. Det er bare en liten hake - du må selv oppsøke de stedene der vi har lagt ut bilder. Så lad opp iPaden og ta beina fatt og bli med oss på en reise i tid og byrom.",
+        "start": "Jeg er klar!"
+    },
+    "poi": [
+        {"title": "Rådhuset", "image": "images/raad.jpg", "pos": {"lat": 59.141027, "lng": 9.655680}},
+        {"title": "Floodegården", "image": "images/flood.jpg", "pos": {"lat": 59.141808, "lng": 9.657118}}
+    ]
+}

@@ -1,0 +1,25 @@
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Bevan|Roboto" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="gps.js"></script>
+</head>
+<body>
+
+    <div id="map"></div>
+    <div id="placeholder">
+        <div id="start">
+            <h1 class="font2">
+                {city}
+            </h1>
+            <div class="font1 intro">
+                {intro}
+            </div>
+            <br><br>
+            <button onclick="javascript:window.start();">{start}</btton>
+        </div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACJ8wM_rmrgcoypblmdbyU578h-n4H6ys&callback=initMap" async="defer"></script>
+</body>
+</html>
