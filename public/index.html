@@ -2,8 +2,29 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Bevan|Roboto" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="gps.js"></script>
+    <script type="text/javascript" src="./jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://jspm.io/system@0.19.js"></script>
+    <script type="text/javascript" src="./googlemaps.js"></script>
+    <script type="text/javascript">
+        System.config({
+            paths: {
+                "google-maps": "https://maps.googleapis.com/maps/api/js?key=AIzaSyACJ8wM_rmrgcoypblmdbyU578h-n4H6ys"
+            },
+            packages: {
+                "https://maps.googleapis.com": {
+                defaultExtension: false,
+                "meta": {
+                    "*": {
+                    scriptLoad: true,
+                    exports: 'google'
+                    }
+                }
+                }
+            },
+            transpiler: "babel"
+        });
+        System.import("./gps.js");
+    </script>
 </head>
 <body>
 
@@ -20,6 +41,5 @@
             <button onclick="javascript:window.start();">{start}</btton>
         </div>
     </div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACJ8wM_rmrgcoypblmdbyU578h-n4H6ys&callback=initMap" async="defer"></script>
 </body>
 </html>
